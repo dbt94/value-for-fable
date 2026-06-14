@@ -1,36 +1,6 @@
 # 𝐕𝐚𝐥𝐮𝐞-𝐟𝐨𝐫-𝐅𝐚𝐛𝐥𝐞 (𝐕𝐅𝐅)
 
-> **English summary** — Full Korean docs below / 한국어 전문은 아래에 있습니다
-
-**VFF** injects Fable 5's operating structure into Claude Sonnet — near-Opus quality at Sonnet pricing (~70% cheaper than Fable, ~40% cheaper than Opus).
-
-It changes *how* Sonnet behaves, not which model runs: conclusion-first answers, clue-driven diagnosis, measure before prescribing, verify before claiming done.
-
-Blind benchmark (Opus 4.8 multi-agent harness, neutral rubric, 2026-06-14): **Sonnet+VFF ≈ bare Opus** at **0.30× the output cost**. Full data: [bench/RESULTS.md](bench/RESULTS.md)
-
-> Recommended for **Sonnet (Pro plan)** users. Not recommended for Opus users — minimal marginal gain.
-
-### Install
-
-```
-/plugin marketplace add itsinseong/value-for-fable
-/plugin install value-for-fable@itsinseong
-```
-
-Requires GitHub auth on the machine (`gh auth login` or git credential helper) — private repo.
-
-### Quick start
-
-```
-/model sonnet
-VFF
-```
-
-Or always-on: `/config` → Output style → **VFF v2** (recommended).
-
----
-
-**Opus에 근접한 품질을 Sonnet 단가에 가성비 AI 운영 모델을 직접 구축한 Claude Code 프로젝트**
+**Opus에 근접한 품질을 Sonnet 단가에** · *Near-Opus quality at Sonnet pricing*
 
 ***🡒 PRO 사용자들에겐 추천, OPUS 사용자 들에겐 비추천***
 
