@@ -5,8 +5,7 @@
 ***🡒 PRO 사용자들에겐 추천, OPUS 사용자 들에겐 비추천***
 
 Fable5 구조를 넣은 Sonnet이 Opus와 블라인드 테스트에서 사실상 비겼다!!
-그것도 답 1건당 비용 3분의 1로!!([bench/](bench/RESULTS.md))
-
+그것도 답 1건당 비용 3분의 1로!!
 *Sonnet + Fable 5 structure virtually tied Opus in a blind test — at 1/3 the cost per response. ([bench/](bench/RESULTS.md))*
 
 ## 왜 Sonnet+VFF인가
