@@ -164,11 +164,11 @@ Sonnet에서 전역 `effortLevel: xhigh`는 조용히 `high`로 클램프된다.
 Claude Code 플러그인으로 한 번에 설치한다. 스킬·에이전트·output style(VFF)·훅이 모두 자동 등록된다.
 
 ```
-/plugin marketplace add itsinseong/value-for-fable
+/plugin marketplace add https://github.com/itsinseong/value-for-fable
 /plugin install value-for-fable@itsinseong
 ```
 
-이 repo는 마켓플레이스(`.claude-plugin/marketplace.json`)와 플러그인(`.claude-plugin/plugin.json`)을 겸한다. private repo이므로 설치하는 머신에 GitHub 인증(`gh auth login` 또는 git credential helper)이 돼 있어야 한다.
+이 repo는 마켓플레이스(`.claude-plugin/marketplace.json`)와 플러그인(`.claude-plugin/plugin.json`)을 겸한다. public repo라 인증 없이 설치된다. 단, 약칭(`itsinseong/...`)으로 추가하면 SSH로 clone을 시도해 GitHub용 SSH 키가 없는 머신에선 `Host key verification failed` / `Permission denied (publickey)`로 실패하므로, 위처럼 `https://` 전체 URL로 추가해 HTTPS로 받으면 된다.
 
 - 갱신: `/plugin marketplace update itsinseong` 후 재설치
 - 제거: `/plugin uninstall value-for-fable@itsinseong`
