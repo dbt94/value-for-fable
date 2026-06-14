@@ -1,0 +1,50 @@
+{
+  "H1": {
+    "status": "ok",
+    "picks": [
+      "opus_plain",
+      "sonnet_v2"
+    ],
+    "verdict": "무승부/순서편향"
+  },
+  "H2": {
+    "status": "ok",
+    "picks": [
+      "sonnet_v2",
+      "sonnet_v2"
+    ],
+    "verdict": "sonnet_v2 (양방향 일치)"
+  },
+  "H3": {
+    "status": "ok",
+    "picks": [
+      "opus_plain",
+      "sonnet_v2"
+    ],
+    "verdict": "무승부/순서편향"
+  },
+  "H4": {
+    "status": "ok",
+    "picks": [
+      "opus_plain",
+      "sonnet_v2"
+    ],
+    "verdict": "무승부/순서편향"
+  },
+  "H5": {
+    "status": "ok",
+    "picks": [
+      "sonnet_v2",
+      "sonnet_v2"
+    ],
+    "verdict": "sonnet_v2 (양방향 일치)"
+  },
+  "H6": {
+    "status": "ok",
+    "picks": [
+      "opus_plain",
+      "sonnet_v2"
+    ],
+    "verdict": "무승부/순서편향"
+  }
+}
