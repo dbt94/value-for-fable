@@ -1,0 +1,20 @@
+Value-for-Fable (VFF)
+Copyright (C) 2026 itsinseong — https://github.com/itsinseong/value-for-fable
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version. See the LICENSE file for the full text.
+
+Reuse of this project's code or text requires (a) attribution to this repository
+and (b) AGPL-3.0 compliance — any conveyed or network-served derivative must make
+its corresponding source available under the same license.
+
+Provenance / 우선권 기록 (UTC):
+- 2026-06-11T19:54Z  repository created (itsinseong/value-for-fable)
+- 2026-06-13T20:15Z  bench/ — the Fable-vs-Opus re-validation, RESULTS.md, and the
+                     "what transfers" analysis — first published here.
+
+The ideas and methods are not claimed as exclusive property; copyrightable
+expression (this project's code and text) is. The public commit history of this
+repository establishes authorship and first-publication dates.
